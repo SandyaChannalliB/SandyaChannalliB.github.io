@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  font-family:"Comic Sans MS",cursive, sans-serif;
+}
+h1{
+  text-align: center;
+  padding-bottom: 100px;
+}
+p {
+  border: 2px solid black;
+  background-color: gray;
+  padding: 15px;
+  margin: 15px;
+}
+.row {
+  width:100%
+}
+.item {
+  position:relative;
+  float:right;
+  width:140px;
+  text-align: center;
+  padding: revert;
+  font-size: 20px;
+}
+.itemDes{
+  padding-top: 40px
+}
+#p1{
+  background-color: #FFB6C1;
+}
+#p2{
+  background-color: #FF0000;
+}
+#p3{
+  background-color: #FFFF00;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    float: left;
+    width: 50%;
+  }
+}
