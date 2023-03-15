@@ -51,4 +51,15 @@ p {
     float: left;
     width: 50%;
   }
+  .col-md-12{
+    float: left;
+    width: 100%;
+  }
+}
+
+@media (min-width: 0) and (max-width: 767px) {
+  [class*="col-"] {
+  width: 100%;
+  }
+
 }
